@@ -1,0 +1,9 @@
+services:
+  # A Docker web service
+  - type: web
+    name: aptscraper
+    runtime: python
+    plan: free
+    autoDeploy: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn scraper:app --host 0.0.0.0 --port $PORT
