@@ -8,6 +8,7 @@ beautifulsoup4==4.12.3
 bs4==0.0.2
 certifi==2024.8.30
 charset-normalizer==3.3.2
+click==8.1.7
 deprecation==2.1.0
 fastapi==0.114.0
 frozenlist==1.4.1
@@ -44,6 +45,7 @@ trio==0.26.2
 trio-websocket==0.11.1
 typing_extensions==4.12.2
 urllib3==2.2.2
+uvicorn==0.30.6
 webdriver-manager==4.0.2
 websocket-client==1.8.0
 websockets==12.0
